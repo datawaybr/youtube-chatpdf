@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chatpdf-datawaybr"
+version = "0.1.0"
+description = "Chat PDF Tutorial Dataway BR"
+authors = ["Gabriel Saraiva <gabriel.alves@itriad.org.br>"]
+readme = "README.md"
+packages = [{include = "chatpdf_datawaybr"}]
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+streamlit = "^1.29.0"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.352"
+pypdf2 = "^3.0.1"
+faiss-cpu = "^1.7.4"
+openai = "^1.6.0"
+tiktoken = "^0.5.2"
+streamlit-chat = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
